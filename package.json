@@ -1,0 +1,16 @@
+{
+  "name": "sfdx-monorepo-yarn-workspace",
+  "packageManager": "yarn@3.0.2",
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "validate-sfdx": "sfdx -v"
+  },
+  "dependencies": {
+    "@dxatscale/sfpowerscripts": "^8.1.10",
+    "sfdx-cli": "^7.112.1",
+    "sfpowerkit": "^3.2.2"
+  },
+  "version": "1.0.0"
+}
